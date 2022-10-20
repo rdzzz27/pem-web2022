@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video subtitle</title>
+</head>
+<body>
+    <center>
+        <h2>hai</h2>
+        <button onclick="playVid()" type="button">Play Video</button>
+		<button onclick="pauseVid()" type="button">Pause Video</button><br>
+		<video id="myVideo" width="500" height="440" controls>
+            <track src="https://youtu.be/X2lL4ovfyl0t" kind="subtitles" srclang="en" label="English">
+		</video>
+        <p>sc: https://youtu.be/X2lL4ovfyl0</p>
+    </center>
+<script>
+var vid = document.getElementById("myVideo");
+	function playVid() {
+		vid.play() ;
+	}
+	function pauseVid() {
+		vid.pause() ;
+	}
+</video>
+</body>
+</html>

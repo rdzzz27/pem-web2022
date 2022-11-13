@@ -1,0 +1,14 @@
+p {
+    font-family: serif;
+    line-height: 2em;
+    font-size: 22px;
+}
+i {
+    font-family: sans;
+    color: green;
+}   
+h2 {
+    font-family: sans;
+    color: #333;
+    text-align: center;
+}
